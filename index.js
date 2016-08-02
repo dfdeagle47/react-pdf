@@ -3,6 +3,7 @@
  */
 var React = require('react');
 var ReactDOM = require('react-dom');
+var PDFJS = require('pdfjs-dist');
 
 var Pdf = React.createClass({
   displayName: 'React-PDF',
